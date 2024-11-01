@@ -1,0 +1,225 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        },
+
+        "fr": {
+            "title": "Réalis",
+            "title_menu": "Réalisations",
+            "title_long_prefix": "Voici",
+            "title_long": "Mes **Réalisations**"
+        },
+
+        "ko": {
+            "title": "경력 성과",
+            "title_menu": "경력 성과",
+            "title_long_prefix": "다음은",
+            "title_long": "**경력 성과**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/ibm-logo-2.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "01/01/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/records/YUGUD6JD22WH" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Introduction to **Cloud Computing**",
+                            "text": "IBM"
+                        },
+                        "es": {
+                            "text": "Administrador Kubernetes Certificado (CKA)"
+                        },
+                        "fr": {
+                            "text": "Administrateur Kubernetes Certifié (CKA)"
+                        },
+                        "ko": {
+                            "text": "인증된 쿠버네티스 관리자 (CKA)"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fas fa-project-diagram",
+                        "faColors": {"bg": "#326CE5", "fill": "#ffff"}
+                    },
+                    "dates": {
+                        "start": "06/05/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/records/54ZL7UQDYXKS" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Blockchain** Basics",
+                            "text": "University at Buffalo School of Management, The State University of New York"
+                        },
+                        "es": {
+                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
+                        },
+                        "fr": {
+                            "text": "Architecte de Solutions Certifié AWS – Associé"
+                        },
+                        "ko": {
+                            "text": "AWS 인증 솔루션 아키텍트 – 어소시에이트"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/meta-6871457_1280.png",
+                        "fa": "",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "05/05/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/records/Y5JKMCQFLURR" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Introduction to Android Mobile Application Development**",
+                            "text": "Meta"
+                        },
+                        "es": {
+                            "text": "Desarrollador Java Certificado"
+                        },
+                        "fr": {
+                            "text": "Développeur Java Certifié"
+                        },
+                        "ko": {
+                            "text": "인증된 자바 개발자"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img":"images/pictures/po.png",
+                        "fa": "",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "05/15/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/records/PX5RE3G2ZBFK" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Machine Learning** An overview",
+                            "text": "Politecnico di Milano"
+                        },
+                        "es": {
+                            "text": "Desarrollador Certificado en MongoDB"
+                        },
+                        "fr": {
+                            "text": "Développeur Certifié MongoDB"
+                        },
+                        "ko": {
+                            "text": "몽고디비 인증 개발자"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img":"images/pictures/m.png",
+                        "fa": "",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "12/15/2022",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/records/8MB2PWJB2VQV" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Python** Classes and Inheritance",
+                            "text": "University of Michigan"
+                        },
+                        "es": {
+                            "text": "Desarrollador Certificado en MongoDB"
+                        },
+                        "fr": {
+                            "text": "Développeur Certifié MongoDB"
+                        },
+                        "ko": {
+                            "text": "몽고디비 인증 개발자"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/ibm-logo-2.jpg",
+                        "fa": "",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "12/05/2022",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/records/Y5JKMCQFLURR" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Python for Data Science, AI & Development**",
+                            "text": "IBM"
+                        },
+                        "es": {
+                            "text": "Desarrollador Java Certificado"
+                        },
+                        "fr": {
+                            "text": "Développeur Java Certifié"
+                        },
+                        "ko": {
+                            "text": "인증된 자바 개발자"
+                        }
+                    }
+                }
+
+            ]
+        }
+
+        
+    ]
+}
