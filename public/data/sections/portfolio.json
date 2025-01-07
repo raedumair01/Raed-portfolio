@@ -262,7 +262,50 @@
                         }
                     }
                 }
+,
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/logo-c.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
 
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "http://localhost/e/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "The Cycle hub",
+                            "text": "An e-commerce website for cycles, crafted with WooCommerce and Elementor for a seamless shopping experience and engaging design",
+                            "tags": ["WooCommerce", "Wordpress", "Elementor"]
+                        },
+                        "es": {
+                            "title": "Sweet Scoops",
+                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
+                            "tags": ["WooCommerce", "Comida", "Postres"]
+                        },
+                        "fr": {
+                            "title": "Sweet Scoops",
+                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
+                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
+                        },
+                        "ko": {
+                            "title": "Sweet Scoops",
+                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
+                            "tags": ["WooCommerce", "음식", "디저트"]
+                        }
+                    }
+                }
                
             ]
         }
