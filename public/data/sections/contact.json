@@ -55,9 +55,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+923024389297",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:03024389297"}
                     ],
                     "icon": {
                         "img": null,
@@ -73,9 +73,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "raedumair01@email.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:raedumair01@email.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +89,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "Raed bin Umair",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/raed-bin-umair-b0bb22183/"}
                     ],
                     "icon": {
                         "img": null,
@@ -104,9 +104,9 @@
                 },
 
                 {
-                    "value": "Mark Choi",
+                    "value": "Raed bin Umair",
                     "links": [
-                        {"href": "https://facebook.com"}
+                        {"href": "https://m.facebook.com/raedbin.umair.7/"}
                     ],
                     "icon": {
                         "img": null,
@@ -119,9 +119,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "Raed bin Umair",
                     "links": [
-                        {"href": "https://instagram.com"}
+                        {"href": "https://www.instagram.com/raed_bin_umair_"}
                     ],
                     "icon": {
                         "img": null,
@@ -130,21 +130,6 @@
                     },
                     "locales": {
                         "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
                     }
                 }
             ]

@@ -228,7 +228,7 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "http://localhost/e/"}
+                        {"faIcon": "fa-solid fa-link", "href": ""}
                     ],
 
                     "media": {
