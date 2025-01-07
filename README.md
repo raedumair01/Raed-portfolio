@@ -76,8 +76,8 @@ Deploy the website with hosting platforms like Vercel or Netlify.
 🖋️ Author
 Raed Bin Umair
 
-GitHub: Raed's GitHub
-LinkedIn: Raed's LinkedIn
-Email: raedumair01@example.com
+GitHub: [Raed's GitHub](https://github.com/raedumair01/)
+LinkedIn: https://www.linkedin.com/in/raed-bin-umair-b0bb22183/
+Email: raedumair01@.com
 📄 License
 This project is licensed under the MIT License.
