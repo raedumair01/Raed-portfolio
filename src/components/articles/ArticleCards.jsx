@@ -4,7 +4,6 @@ import Swipeable from "/src/components/capabilities/Swipeable"
 import { SwiperSlide } from 'swiper/react'
 import InfoCard from "/src/components/generic/InfoCard.jsx"
 import {useParser} from "/src/helpers/parser.js"
-
 function ArticleCards({ data }) {
     const parser = useParser()
 
