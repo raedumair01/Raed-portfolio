@@ -79,5 +79,3 @@ Raed Bin Umair
 GitHub: [Raed's GitHub](https://github.com/raedumair01/)
 LinkedIn: https://www.linkedin.com/in/raed-bin-umair-b0bb22183/
 Email: raedumair01@.com
-📄 License
-This project is licensed under the MIT License.
