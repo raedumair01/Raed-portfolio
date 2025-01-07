@@ -228,7 +228,7 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": ""}
+                        {"faIcon": "fa-solid fa-link"}
                     ],
 
                     "media": {
