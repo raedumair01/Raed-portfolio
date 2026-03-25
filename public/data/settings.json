@@ -16,7 +16,7 @@
         "profilePictureUrl": "images/pictures/osman.jpg",
 
         "locales": {
-            "en": {"role": "MERN STACK DEVELOPER"},
+            "en": {"role": "React Native Developer"},
             "es": {"role": "Desarrollador Web"},
             "fr": {"role": "Développeur Web"},
             "ko": {"role": "웹 개발자"}
