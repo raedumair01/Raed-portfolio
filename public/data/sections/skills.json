@@ -5,44 +5,42 @@
             "title_long_prefix": "Explore",
             "title_long": "My **Skill Set**"
         },
-
         "es": {
             "title": "Habilidades",
             "title_long_prefix": "Explora",
             "title_long": "Mis **Habilidades**"
         },
-
         "fr": {
             "title": "Capacités",
             "title_long_prefix": "Explorez",
             "title_long": "Mes **Compétences**"
         },
-
         "ko": {
             "title": "스킬",
             "title_long_prefix": "이것은 내",
             "title_long": "**스킬**입니다"
         }
     },
-
     "articles": [
         {
             "id": "capabilities",
             "component": "ArticleCards",
             "config": {},
             "locales": {},
-
             "items": [
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-globe",
-                        "faColors": {"bg": null, "fill": null}
+                        "fa": "fa-solid fa-table-columns",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
-                            "title": "**Website** Development",
-                            "text": "Experienced in building dynamic and responsive web applications using React.js, HTML, CSS, and JavaScript"
+                            "title": "**Website** design",
+                            "text": "I can bring your best ideas into life!"
                         },
                         "es": {
                             "title": "Diseño de **sitios web**",
@@ -58,17 +56,19 @@
                         }
                     }
                 },
-
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-database",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
                             "title": "**Database** management",
-                            "text": "Proficient in database management with MongoDB, MySQL, and Firebase for efficient data storage and retrieval"
+                            "text": "I can handle your data effectively!"
                         },
                         "es": {
                             "title": "Gestión de **bases de datos**",
@@ -84,17 +84,19 @@
                         }
                     }
                 },
-
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-mobile-screen-button",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
                             "title": "**App** creation",
-                            "text": "Experienced in building cross-platform mobile applications using React Native and Flutter."
+                            "text": "I can make creative and innovative apps!"
                         },
                         "es": {
                             "title": "Creación de **aplicaciones**",
@@ -110,17 +112,19 @@
                         }
                     }
                 },
-
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-window-restore",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
                             "title": "REST **APIs**",
-                            "text": "Skilled in developing and integrating RESTful APIs using Node.js to power mobile and web applications"
+                            "text": "I can build API services!"
                         },
                         "es": {
                             "title": "APIs **REST**",
@@ -136,52 +140,56 @@
                         }
                     }
                 },
-
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-robot",
-                        "faColors": {"bg": null, "fill": null}
+                        "fa": "fa-solid fa-brain",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
-                            "title": "AI **Model Integration**",
-                            "text": "Successfully integrated an AI classification model into the React Native application"
+                            "title": "AI Integration in **Apps**",
+                            "text": "I can build smart app experiences with AI features!"
                         },
                         "es": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
+                            "title": "Integración de IA en **apps**",
+                            "text": "¡Puedo crear experiencias inteligentes en apps con funciones de IA!"
                         },
                         "fr": {
-                            "title": "**Sécurité** de l'information",
-                            "text": "La sécurité est mon deuxième prénom !"
+                            "title": "Intégration de l'IA dans les **apps**",
+                            "text": "Je peux créer des expériences intelligentes dans les apps avec des fonctionnalités IA !"
                         },
                         "ko": {
-                            "title": "정보 **보안**",
-                            "text": "보안은 제 전문 분야입니다!"
+                            "title": "앱에 **AI** 통합",
+                            "text": "AI 기능을 통합해 더 스마트한 앱 경험을 만들 수 있습니다!"
                         }
                     }
                 }
             ]
-
         },
-
         {
             "id": "backend_programming",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Backend"}
+                "en": {
+                    "title": "Backend"
+                }
             },
-
             "items": [
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-node-js",
-                        "faColors": {"bg": "#339933", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#339933",
+                            "fill": "#EEE"
+                        }
                     },
-                    "value": 40,
+                    "value": 70,
                     "dates": {
                         "start": "12/15/2023"
                     },
@@ -196,7 +204,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#306998", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#306998",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": 60,
                     "dates": {
@@ -209,12 +220,14 @@
                         }
                     }
                 },
-               
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#4479A1",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": 60,
                     "dates": {
@@ -231,9 +244,12 @@
                     "icon": {
                         "img": null,
                         "fa": "fas fa-server express-icon",
-                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#2496ED",
+                            "fill": "#EEE"
+                        }
                     },
-                    "value": 40,
+                    "value": 70,
                     "dates": {
                         "start": "12/15/2023"
                     },
@@ -248,7 +264,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fas fa-fire",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                        "faColors": {
+                            "bg": "#FFD700",
+                            "fill": "#111"
+                        }
                     },
                     "value": 50,
                     "dates": {
@@ -261,14 +280,16 @@
                         }
                     }
                 },
-               
                 {
                     "icon": {
                         "img": null,
                         "fa": "fas fa-database mongodb-icon",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#47A248",
+                            "fill": "#EEE"
+                        }
                     },
-                    "value": 50,
+                    "value": 70,
                     "dates": {
                         "start": "12/20/2023"
                     },
@@ -283,7 +304,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-git",
-                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                        "faColors": {
+                            "bg": "#F05032",
+                            "fill": "#111"
+                        }
                     },
                     "value": 50,
                     "dates": {
@@ -300,7 +324,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-android",
-                        "faColors": {"bg": "#EEE", "fill": "#339933"}
+                        "faColors": {
+                            "bg": "#EEE",
+                            "fill": "#339933"
+                        }
                     },
                     "value": 50,
                     "dates": {
@@ -312,25 +339,419 @@
                             "info": null
                         }
                     }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-network-wired",
+                        "faColors": {
+                            "bg": "#111827",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Axios",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-network-wired",
+                        "faColors": {
+                            "bg": "#1d4ed8",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "REST APIs",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-layer-group",
+                        "faColors": {
+                            "bg": "#10b981",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Structured service layers",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-right-left",
+                        "faColors": {
+                            "bg": "#06b6d4",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Request/response handling",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-triangle-exclamation",
+                        "faColors": {
+                            "bg": "#ef4444",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Error management",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-arrows-rotate",
+                        "faColors": {
+                            "bg": "#8b5cf6",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "API state synchronization",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-link",
+                        "faColors": {
+                            "bg": "#64748b",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 40,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Third-party APIs",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-fingerprint",
+                        "faColors": {
+                            "bg": "#2563eb",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JWT (JSON Web Token)",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-network-wired",
+                        "faColors": {
+                            "bg": "#1d4ed8",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "RESTful APIs",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {
+                            "bg": "#22c55e",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mongoose",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-map",
+                        "faColors": {
+                            "bg": "#0ea5e9",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 40,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Google Maps API",
+                            "info": null
+                        }
+                    }
                 }
-                
             ]
         },
-
+        {
+            "id": "tools_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Tools"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/images (1).png",
+                        "fa": "fa-brands fa-postman",
+                        "faColors": {
+                            "bg": "#ff6c37",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Postman",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {
+                            "bg": "#111827",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "GitHub",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-gitlab",
+                        "faColors": {
+                            "bg": "#fc6d26",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "GitLab",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-terminal",
+                        "faColors": {
+                            "bg": "#2563eb",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "VS Code",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pen-nib",
+                        "faColors": {
+                            "bg": "#64748b",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cursor",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-android",
+                        "faColors": {
+                            "bg": "#22c55e",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 40,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Android Studio",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-apple",
+                        "faColors": {
+                            "bg": "#111827",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 40,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Xcode",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-bolt",
+                        "faColors": {
+                            "bg": "#f97316",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 35,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bolt",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
         {
             "id": "front_end_programming",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Frontend"}
+                "en": {
+                    "title": "Frontend"
+                }
             },
-
             "items": [
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-html5",
-                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#E34F26",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": 80,
                     "dates": {
@@ -347,7 +768,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-css3",
-                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#1572B6",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": 80,
                     "dates": {
@@ -364,7 +788,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                        "faColors": {
+                            "bg": "#F7DF1E",
+                            "fill": "#111"
+                        }
                     },
                     "value": 70,
                     "dates": {
@@ -381,7 +808,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#111", "fill": "#61DAFB"}
+                        "faColors": {
+                            "bg": "#111",
+                            "fill": "#61DAFB"
+                        }
                     },
                     "value": 50,
                     "dates": {
@@ -398,9 +828,12 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#111", "fill": "#61DAFB"}
+                        "faColors": {
+                            "bg": "#111",
+                            "fill": "#61DAFB"
+                        }
                     },
-                    "value": 40,
+                    "value": 70,
                     "dates": {
                         "start": "11/30/2023"
                     },
@@ -415,7 +848,10 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-flutter",
-                        "faColors": {"bg": "#ffff", "fill": "#42A5F5"}
+                        "faColors": {
+                            "bg": "#ffff",
+                            "fill": "#42A5F5"
+                        }
                     },
                     "value": 40,
                     "dates": {
@@ -427,116 +863,577 @@
                             "info": null
                         }
                     }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {
+                            "bg": "#3178C6",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-layer-group",
+                        "faColors": {
+                            "bg": "#764ABC",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Redux",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-sitemap",
+                        "faColors": {
+                            "bg": "#6C63FF",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Context API",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-circle-nodes",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "useState",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-wave-square",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "useEffect",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-clipboard-check",
+                        "faColors": {
+                            "bg": "#28a745",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React Hook Form",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-check-double",
+                        "faColors": {
+                            "bg": "#22c55e",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Custom validation",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shield-halved",
+                        "faColors": {
+                            "bg": "#f97316",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Zod",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-route",
+                        "faColors": {
+                            "bg": "#10B981",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React Router DOM",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-tailwindcss",
+                        "faColors": {
+                            "bg": "#38bdf8",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-sass",
+                        "faColors": {
+                            "bg": "#c69",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SCSS",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-palette",
+                        "faColors": {
+                            "bg": "#db7093",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Styled Components",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shapes",
+                        "faColors": {
+                            "bg": "#0ea5e9",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SVG integration",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-ruler-combined",
+                        "faColors": {
+                            "bg": "#111827",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Pixel-perfect UI",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-expand",
+                        "faColors": {
+                            "bg": "#3b82f6",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Responsive layouts",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cubes",
+                        "faColors": {
+                            "bg": "#6366f1",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 55,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Reusable component architecture",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-screen-button",
+                        "faColors": {
+                            "bg": "#22c55e",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "react-native-responsive-screen",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-arrows-left-right",
+                        "faColors": {
+                            "bg": "#14b8a6",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Adaptive layouts",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-th-large",
+                        "faColors": {
+                            "bg": "#f59e0b",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Modular and reusable mobile components",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-box",
+                        "faColors": {
+                            "bg": "#8b5cf6",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "iOS CocoaPods",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gears",
+                        "faColors": {
+                            "bg": "#f43f5e",
+                            "fill": "#fff"
+                        }
+                    },
+                    "value": 45,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Gradle",
+                            "info": null
+                        }
+                    }
                 }
             ]
         },
-
         {
             "id": "languages",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "fr": { "title": "Langues" },
-                "ko": { "title": "언어" }
+                "en": {
+                    "title": "Languages"
+                },
+                "es": {
+                    "title": "Idiomas"
+                },
+                "fr": {
+                    "title": "Langues"
+                },
+                "ko": {
+                    "title": "언어"
+                }
             },
-
             "items": [
                 {
                     "icon": {
                         "img": "images/flags/en.png",
                         "fa": null,
-                        "faColors": { "bg": null, "fill": null }
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "value": null,
-                    "dates": { "start": null },
+                    "dates": {
+                        "start": null
+                    },
                     "locales": {
                         "en": {
                             "title": "English",
                             "info": "Fluent in both spoken and written English; confident in professional communication",
-                            "tags": ["Fluent"]
+                            "tags": [
+                                "Fluent"
+                            ]
                         },
                         "es": {
                             "title": "Inglés",
                             "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["Nativo"]
+                            "tags": [
+                                "Nativo"
+                            ]
                         },
                         "fr": {
                             "title": "Anglais",
                             "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
-                            "tags": ["Natif"]
+                            "tags": [
+                                "Natif"
+                            ]
                         },
                         "ko": {
                             "title": "영어",
                             "info": "모국어 수준의 의사소통 및 글쓰기 능력을 보유.",
-                            "tags": ["모국어"]
+                            "tags": [
+                                "모국어"
+                            ]
                         }
                     }
                 },
-
                 {
                     "icon": {
                         "img": "images/pictures/pakistan.png",
                         "fa": null,
-                        "faColors": { "bg": null, "fill": null }
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "value": null,
-                    "dates": { "start": null },
+                    "dates": {
+                        "start": null
+                    },
                     "locales": {
                         "en": {
                             "title": "Urdu",
                             "info": "Native speaker with excellent communication and writing skills.",
-                            "tags": ["Native"]
+                            "tags": [
+                                "Native"
+                            ]
                         },
                         "es": {
                             "title": "Francés",
                             "info": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-                            "tags": ["Fluido"]
+                            "tags": [
+                                "Fluido"
+                            ]
                         },
                         "fr": {
                             "title": "Français",
                             "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
-                            "tags": ["Courant"]
+                            "tags": [
+                                "Courant"
+                            ]
                         },
                         "ko": {
                             "title": "프랑스어",
                             "info": "구어 및 문어에 유창하며, 전문적인 소통에 자신감이 있음.",
-                            "tags": ["유창"]
+                            "tags": [
+                                "유창"
+                            ]
                         }
                     }
                 },
-
-               
-
                 {
                     "icon": {
                         "img": "images/pictures/turkey.png",
                         "fa": null,
-                        "faColors": { "bg": null, "fill": null }
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "value": null,
-                    "dates": { "start": null },
+                    "dates": {
+                        "start": null
+                    },
                     "locales": {
                         "en": {
                             "title": "Turkish",
                             "info": "Basic understanding of Turkish; learning and improving.",
-                            "tags": ["Basic"]
+                            "tags": [
+                                "Basic"
+                            ]
                         },
                         "es": {
                             "title": "Coreano",
                             "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
+                            "tags": [
+                                "Básico"
+                            ]
                         },
                         "fr": {
                             "title": "Coréen",
                             "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
+                            "tags": [
+                                "Basique"
+                            ]
                         },
                         "ko": {
                             "title": "한국어",
                             "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "tags": ["기초"]
+                            "tags": [
+                                "기초"
+                            ]
                         }
                     }
                 }

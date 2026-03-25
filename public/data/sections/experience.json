@@ -5,68 +5,207 @@
             "title_long_prefix": "Summary of my",
             "title_long": "**Work** Experience"
         },
-
         "es": {
             "title": "Experiencia",
             "title_long_prefix": "Resumen de mi",
             "title_long": "Experiencia **Laboral**"
         },
-
         "fr": {
             "title": "Expérience",
             "title_long_prefix": "Résumé de mon",
             "title_long": "Parcours **Professionel**"
         },
-
         "ko": {
             "title": "경험",
             "title_long_prefix": "이것은 내",
             "title_long": "**직업적** 경험"
         }
     },
-
     "articles": [
         {
             "id": "work",
             "component": "ArticleTimeline",
             "config": {},
             "locales": {},
-
             "items": [
                 {
-                    
                     "icon": {
-                        "img": "images/pictures/wtech.jpeg",
+                        "img": "images/pictures/argontech_logo.jpg",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
-                        "start": "07/01/2023",
-                        "end": "12/01/2023"
+                        "start": "01/10/2025",
+                        "end": "01/03/2026"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**React Native** Developer",
+                            "info": "Argon Teq - Pakistan, Lahore",
+                            "text": "Develop and maintain cross-platform mobile applications using React Native, focusing on frontend development and building responsive UI components. Integrate and manage REST APIs to enable secure communication between the mobile application and backend services. Contribute to the CLiP Ability fintech platform, implementing caregiver and dependent wallet interfaces along with transaction monitoring features. Build features for financial management dashboards, including spending visibility and user control functionalities within the mobile app.",
+                            "tags": [
+                                "React.js",
+                                "React Native",
+                                "JavaScript",
+                                "TypeScript",
+                                "Redux",
+                                "Context API",
+                                "useState",
+                                "useEffect",
+                                "Tailwind CSS",
+                                "SCSS",
+                                "Styled Components",
+                                "React Hook Form",
+                                "Custom validation",
+                                "iOS",
+                                "Android",
+                                "CocoaPods",
+                                "Pods",
+                                "react-native-responsive-screen",
+                                "Reusable mobile components",
+                                "Axios",
+                                "REST API",
+                                "Service layers",
+                                "Request/response handling",
+                                "API state synchronization",
+                                "Third-party APIs"
+                            ]
+                        },
+                        "es": {
+                            "title": "**React Native** Developer",
+                            "info": "Argon Teq - Pakistán, Lahore",
+                            "text": "Desarrollé y mantuve aplicaciones móviles multiplataforma con React Native, enfocado en el desarrollo frontend y en componentes de UI responsivos. Integré y gestioné APIs REST para asegurar una comunicación segura entre la app móvil y los servicios backend. Contribuí a la plataforma fintech CLiP Ability implementando interfaces de wallets para cuidadores y dependientes, junto con funciones de monitoreo de transacciones. Construí funcionalidades de paneles de gestión financiera, incluyendo visibilidad del gasto y controles del usuario dentro de la app móvil.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "**React Native** Developer",
+                            "info": "Argon Teq - Pakistan, Lahore",
+                            "text": "Développer et maintenir des applications mobiles multiplateformes avec React Native, en se concentrant sur le front-end et sur des composants d’interface utilisateur responsives. Intégrer et gérer des API REST pour permettre une communication sécurisée entre l’application mobile et les services backend. Contribuer à la plateforme fintech CLiP Ability en implémentant des interfaces de portefeuilles pour le caregiver et le dependent, ainsi que des fonctionnalités de suivi des transactions. Développer des fonctionnalités pour des tableaux de bord de gestion financière, incluant la visibilité des dépenses et les contrôles utilisateurs dans l’application mobile.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**리액트 네이티브** 개발자",
+                            "info": "Argon Teq - 파키스탄, 라호르",
+                            "text": "React Native로 크로스플랫폼 모바일 애플리케이션을 개발/유지보수하며 프론트엔드 개발과 반응형 UI 컴포넌트 구축에 집중했습니다. REST API를 연동·관리하여 모바일 앱과 백엔드 서비스 간의 안전한 통신을 가능하게 했습니다. CLiP Ability 핀테크 플랫폼에서 caregiver 및 dependent 지갑 인터페이스와 트랜잭션 모니터링 기능을 구현하는 데 기여했습니다. 지출 가시성과 사용자 제어 기능을 포함한 재무 관리 대시보드 기능을 앱 내에서 구축했습니다.",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/Systems Limited (2).png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "16/06/2025",
+                        "end": "10/08/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**React Native** Developer",
+                            "info": "Systems Limited - Pakistan, Lahore",
+                            "text": "Built and delivered user-focused frontend applications using React Native, including a food delivery app, educational platform, grocery shopping app, and a travel booking app, all crafted with an emphasis on performance, scalability, and responsive design for both Android and iOS. Developed pixel-perfect UI components based on Figma designs, using custom styling, SVG assets, and react-native-responsive-screen to ensure a consistent and adaptive user experience across diverse device sizes. Implemented robust state management using Redux and Context API, enabling dynamic UI rendering and smooth in-app navigation. In the food delivery app, used Axios for fetching real-time backend data such as food items, ensuring interactive and up-to-date user interfaces.",
+                            "tags": [
+                                "React.js",
+                                "React Native",
+                                "JavaScript",
+                                "TypeScript",
+                                "Redux",
+                                "Context API",
+                                "useState",
+                                "useEffect",
+                                "Tailwind CSS",
+                                "SCSS",
+                                "Styled Components",
+                                "React Hook Form",
+                                "Custom validation",
+                                "iOS",
+                                "Android",
+                                "CocoaPods",
+                                "Pods",
+                                "react-native-responsive-screen",
+                                "Reusable mobile components",
+                                "Axios",
+                                "REST API",
+                                "Service layers",
+                                "Request/response handling",
+                                "API state synchronization",
+                                "Third-party APIs"
+                            ]
+                        },
+                        "es": {
+                            "title": "**React Native** Developer",
+                            "info": "Systems Limited - Pakistán, Lahore",
+                            "text": "Construí y entregué aplicaciones frontend orientadas al usuario usando React Native, incluyendo una app de delivery de comida, una plataforma educativa, una app de compras de supermercado y una app de reservas de viajes; todo con énfasis en rendimiento, escalabilidad y diseño responsivo para Android e iOS. Desarrollé componentes de UI pixel-perfect basados en diseños de Figma, usando estilos personalizados, assets SVG y react-native-responsive-screen para una experiencia consistente y adaptativa en distintos tamaños de dispositivos. Implementé un manejo de estado sólido usando Redux y Context API, permitiendo un renderizado dinámico de la UI y una navegación fluida dentro de la app. En la app de delivery de comida, usé Axios para obtener datos del backend en tiempo real (como productos/food items), asegurando interfaces interactivas y actualizadas.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "**React Native** Developer",
+                            "info": "Systems Limited - Pakistan, Lahore",
+                            "text": "J’ai construit et livré des applications front-end orientées utilisateur avec React Native, dont une application de livraison de nourriture, une plateforme éducative, une application d’achats d’épicerie et une application de réservation de voyages, en mettant l’accent sur la performance, la scalabilité et un design responsive pour Android et iOS. J’ai développé des composants d’interface utilisateur fidèles aux maquettes Figma, avec un style personnalisé, des assets SVG et react-native-responsive-screen pour garantir une expérience cohérente et adaptable sur des tailles d’appareils variées. J’ai mis en place une gestion d’état robuste avec Redux et Context API, permettant un rendu UI dynamique et une navigation fluide. Dans l’application de livraison de nourriture, j’ai utilisé Axios pour récupérer des données backend en temps réel, comme les articles de nourriture, afin d’assurer des interfaces interactives et à jour.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**리액트 네이티브** 개발자",
+                            "info": "Systems Limited - 파키스탄, 라호르",
+                            "text": "React Native를 사용해 음식 배달 앱, 교육 플랫폼, 그로서리 쇼핑 앱, 여행 예약 앱 등 사용자 중심의 프론트엔드 애플리케이션을 구축하고 제공했습니다. Android와 iOS 모두를 대상으로 성능, 확장성, 반응형 디자인에 중점을 두었습니다. Figma 디자인을 기반으로 커스텀 스타일링, SVG 에셋, react-native-responsive-screen을 활용해 픽셀 완성도 높은 UI 컴포넌트를 개발하여 다양한 기기 크기에서도 일관되고 적응성 있는 사용자 경험을 보장했습니다. Redux와 Context API로 견고한 상태 관리를 구현해 동적인 UI 렌더링과 앱 내 부드러운 네비게이션이 가능하도록 했습니다. 음식 배달 앱에서는 Axios로 음식 아이템 등 백엔드 데이터를 실시간으로 가져와 인터랙티브하고 최신 상태의 UI를 유지했습니다.",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/fc.jpeg",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "01/10/2024",
+                        "end": "01/06/2025"
                     },
                     "locales": {
                         "en": {
                             "title": "**Front-End** Developer",
-                            "info": "Wtechsols",
-                            "text": "worked as a front end developer created a clone of a website limerick.",
-                            "tags": ["HTML", "CSS", "JavaScript"]
+                            "info": "Fountainhead communications Private Ltd.",
+                            "text": "Built multiple responsive web apps using React.js and TypeScript, including a weather tracker, real estate platform, and coffee delivery app, each with modular architecture and reusable UI components. Integrated tools like Redux Toolkit, React Hook Form, Zod, and React Router DOM to manage state, form validation, and routing efficiently across apps. Used Styled Components and clean code practices to deliver pixel-perfect UIs with strong type safety, performance optimization, and API integration.",
+                            "tags": [
+                                "React.js",
+                                "TypeScript",
+                                "Redux Toolkit",
+                                "React Hook Form",
+                                "Zod",
+                                "React Router DOM",
+                                "Styled Components",
+                                "API Integration",
+                                "Performance Optimization"
+                            ]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
+                            "title": "Ingeniero **Backend**",
+                            "info": "Adobe Inc.",
+                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
                             "tags": null
                         },
                         "fr": {
-                            "title": "Développeur **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
+                            "title": "Ingénieur **Backend**",
+                            "info": "Adobe Inc.",
+                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
                             "tags": null
                         },
                         "ko": {
-                            "title": "**백엔드** 개발자",
-                            "info": "사파이어 스튜디오",
-                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
+                            "title": "**백엔드** 엔지니어",
+                            "info": "어도비 주식회사",
+                            "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
                             "tags": null
                         }
                     }
@@ -75,7 +214,10 @@
                     "icon": {
                         "img": "images/pictures/up.png",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
                         "start": "11/01/2023"
@@ -85,7 +227,16 @@
                             "title": "**Mobile Application**  Developer",
                             "info": "Upwork",
                             "text": "working as a freelance mobile application developer at upwork created fitness app and garbowatch application.",
-                            "tags": ["JavaScript", "React", "Node.js", "MongoDB", "Express.JS", "React native", "Flutter", "Firebase"]
+                            "tags": [
+                                "JavaScript",
+                                "React",
+                                "Node.js",
+                                "MongoDB",
+                                "Express.JS",
+                                "React native",
+                                "Flutter",
+                                "Firebase"
+                            ]
                         },
                         "es": {
                             "title": "Ingeniero **Full-Stack**",
@@ -109,43 +260,48 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/fc.jpeg",
+                        "img": "images/pictures/wtech.jpeg",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "dates": {
-                        "start": "10/01/2024"
+                        "start": "07/01/2023",
+                        "end": "12/01/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Wordpress** Developer",
-                            "info": "Fountainhead communications Private Ltd.",
-                            "text": "working as a wordpress developer focusing on creating E-Commerce websites.",
-                            "tags": ["HTML", "CSS", "JavaScript", "wordpress","Elementor","woocommerece"]
+                            "title": "**Front-End** Developer",
+                            "info": "Wtechsols",
+                            "text": "worked as a front end developer created a clone of a website limerick.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
                         },
                         "es": {
-                            "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
+                            "title": "Desarrollador **Backend**",
+                            "info": "Sapphire Studio",
+                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
                             "tags": null
                         },
                         "fr": {
-                            "title": "Ingénieur **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
+                            "title": "Développeur **Backend**",
+                            "info": "Sapphire Studio",
+                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
                             "tags": null
                         },
                         "ko": {
-                            "title": "**백엔드** 엔지니어",
-                            "info": "어도비 주식회사",
-                            "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
+                            "title": "**백엔드** 개발자",
+                            "info": "사파이어 스튜디오",
+                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
                             "tags": null
                         }
                     }
                 }
-                
-              
-                
             ]
         }
     ]
