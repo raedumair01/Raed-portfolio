@@ -68,11 +68,7 @@ Start the development server:
 bash
 Copy code
 npm start
-Open your browser and navigate to http://localhost:3000.
-💡 Future Enhancements
-Add server-side logic with Node.js and Express.js.
-Integrate a scalable database (MongoDB).
-Deploy the website with hosting platforms like Vercel or Netlify.
+Open your browser and navigate to https://raedbinumair.vercel.app/
 🖋️ Author
 Raed Bin Umair
 
