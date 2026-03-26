@@ -59,8 +59,13 @@
     ],
 
     "emailjs": {
-        "publicKey": "tzObcsmOwHvPy6Rhp",
-        "serviceId": "service_4h8g7vb",
-        "templateId": "template_seyjkzn"
+        "publicKey": "xJk8T1NjeneJKGbQE",
+        "serviceId": "service_83co7f3",
+        "templateId": "template_2uozg3w",
+        "autoReplyTemplateId": "template_zl9ev0c",
+        "autoReplyFromName": "Raed Bin Umair",
+        "autoReplySubject": "Thanks for reaching out",
+        "ownerName": "Raed Bin Umair",
+        "ownerEmail": "raedumair01@gmail.com"
     }
 }

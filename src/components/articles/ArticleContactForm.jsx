@@ -23,6 +23,7 @@ function ArticleContactForm({ data }) {
     const [subject, setSubject] = useState('')
     const [message, setMessage] = useState('')
     const [didSubmitMessage, setDidSubmitMessage] = useState(false)
+    const [submitError, setSubmitError] = useState('')
 
     const parsedData = parser.parseArticleData(data)
 
@@ -38,6 +39,8 @@ function ArticleContactForm({ data }) {
         setName('')
         setEmail('')
         setSubject('')
+        setMessage('')
+        setSubmitError('')
     }
 
     const _onSubmitButton = (e) => {
@@ -59,23 +62,30 @@ function ArticleContactForm({ data }) {
 
         window.scrollTo({top: 260, behavior: 'instant'})
 
-        const success = await emails.sendContactEmail(name, email, subject, message)
-        if(success) {
-            _onSubmitSuccess()
+        const contactResult = await emails.sendContactEmail(name, email, subject, message)
+        if(!contactResult.ok) {
+            _onSubmitError(contactResult.error)
+            return
         }
-        else {
-            _onSubmitError()
+
+        if(emails.hasAutoReplyEnabled()) {
+            await emails.sendAutoReplyEmail(name, email, subject, message)
         }
+
+        _onSubmitSuccess()
     }
 
     const _onSubmitSuccess = () => {
         hideActivitySpinner('submitting')
+        setSubmitError('')
         setDidSubmitMessage(true)
     }
 
-    const _onSubmitError = () => {
+    const _onSubmitError = (errorMessage = '') => {
         hideActivitySpinner('submitting')
-        displayNotification('error', getString('uhOh'), getString('message_sent_error'))
+        const formattedError = errorMessage ? `${getString('message_sent_error')} ${errorMessage}` : getString('message_sent_error')
+        setSubmitError(formattedError)
+        displayNotification('error', getString('uhOh'), formattedError)
     }
 
     return(
